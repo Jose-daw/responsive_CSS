@@ -1,0 +1,11 @@
+@media (orientation: landscape) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: pink;
+    }
+}
