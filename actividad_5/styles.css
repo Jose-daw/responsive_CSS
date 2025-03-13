@@ -1,0 +1,19 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+@media (max-width: 500px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+}
