@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.desktop-only {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+.mobile-only {
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
